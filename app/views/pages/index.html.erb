@@ -1,0 +1,10 @@
+
+<br>
+<h1>Characters</h1>
+<% @characters.each do |p| %>
+<div class col-4>
+    <h3>Name: <%= p.name %></h3>
+    <p>Location: <%= p.location %></p>
+    <p>House: <%= p.house %></p>
+</div>
+<% end%>
